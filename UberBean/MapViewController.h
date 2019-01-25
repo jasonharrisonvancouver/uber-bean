@@ -11,8 +11,12 @@
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface ViewController : UIViewController
+@interface MapViewController : UIViewController< MKMapViewDelegate, CLLocationManagerDelegate>
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (nonatomic) CLLocation *currentLocation;
+
 
 
 @end

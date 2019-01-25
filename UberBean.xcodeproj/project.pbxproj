@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F14F68221FBC5110016C4D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F14F68121FBC5110016C4D6 /* AppDelegate.m */; };
-		9F14F68521FBC5110016C4D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F14F68421FBC5110016C4D6 /* ViewController.m */; };
+		9F14F68521FBC5110016C4D6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F14F68421FBC5110016C4D6 /* MapViewController.m */; };
 		9F14F68821FBC5110016C4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F14F68621FBC5110016C4D6 /* Main.storyboard */; };
 		9F14F68B21FBC5110016C4D6 /* UberBean.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F14F68921FBC5110016C4D6 /* UberBean.xcdatamodeld */; };
 		9F14F68D21FBC5110016C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F14F68C21FBC5110016C4D6 /* Assets.xcassets */; };
@@ -39,8 +39,8 @@
 		9F14F67D21FBC5110016C4D6 /* UberBean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberBean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F14F68021FBC5110016C4D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F14F68121FBC5110016C4D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F14F68321FBC5110016C4D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F14F68421FBC5110016C4D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F14F68321FBC5110016C4D6 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9F14F68421FBC5110016C4D6 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		9F14F68721FBC5110016C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F14F68A21FBC5110016C4D6 /* UberBean.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UberBean.xcdatamodel; sourceTree = "<group>"; };
 		9F14F68C21FBC5110016C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 			children = (
 				9F14F68021FBC5110016C4D6 /* AppDelegate.h */,
 				9F14F68121FBC5110016C4D6 /* AppDelegate.m */,
-				9F14F68321FBC5110016C4D6 /* ViewController.h */,
-				9F14F68421FBC5110016C4D6 /* ViewController.m */,
+				9F14F68321FBC5110016C4D6 /* MapViewController.h */,
+				9F14F68421FBC5110016C4D6 /* MapViewController.m */,
 				9F14F68621FBC5110016C4D6 /* Main.storyboard */,
 				9F14F68C21FBC5110016C4D6 /* Assets.xcassets */,
 				9F14F68E21FBC5110016C4D6 /* LaunchScreen.storyboard */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F14F68B21FBC5110016C4D6 /* UberBean.xcdatamodeld in Sources */,
-				9F14F68521FBC5110016C4D6 /* ViewController.m in Sources */,
+				9F14F68521FBC5110016C4D6 /* MapViewController.m in Sources */,
 				9F14F69321FBC5110016C4D6 /* main.m in Sources */,
 				9F14F68221FBC5110016C4D6 /* AppDelegate.m in Sources */,
 			);
