@@ -118,9 +118,9 @@
         {
             if ([CLLocationManager locationServicesEnabled])
             {
-                if (_locationManager)
+                if (self.locationManager)
                 {
-                    [_locationManager stopUpdatingLocation];
+                    [self.locationManager stopUpdatingLocation];
                     NSLog(@"Stop Regular Location Manager");
                 }
             }
@@ -128,7 +128,19 @@
     }
 }
 
-
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
+    
+    
+    
+    if(status == kCLAuthorizationStatusDenied){
+        [self.locationManager stopUpdatingLocation];
+    }else{
+        [self.locationManager startUpdatingLocation];
+    }
+    
+    
+    
+}
 
 
 @end
