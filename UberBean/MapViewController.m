@@ -113,6 +113,13 @@
         [self.mapView setRegion:adjustedRegion animated:YES];
         
         
+        
+        //You will also need to add a span. Use MKCoordinateSpanMake() to create a span object. You can set the delta's to something small, like 0.06.
+        
+        
+        
+        
+        
         // if can't get needed accuracy, let's stop this
         if (loc.horizontalAccuracy <= self.locationManager.desiredAccuracy)
         {
@@ -132,10 +139,10 @@
     
     
     
-    if(status == kCLAuthorizationStatusDenied){
-        [self.locationManager stopUpdatingLocation];
-    }else{
+    if(status == kCLAuthorizationStatusAuthorizedWhenInUse || status == kCLAuthorizationStatusAuthorizedAlways){
         [self.locationManager startUpdatingLocation];
+    }else{
+        [self.locationManager stopUpdatingLocation];
     }
     
     
